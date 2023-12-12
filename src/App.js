@@ -1,21 +1,25 @@
 import dashboardImage from './images/dashboard-image.webp';
+import underConstruction from './images/under-construction.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={dashboardImage} className="App-logo" alt="logo" />
-        <p>
-          ROL-BOX
-        </p>
-        <p className="App-link">
-          Inovativna rješenja za Vaš dom
-        </p>
+      <div className="App-container">
+        <img src={dashboardImage} className="App-dashboard-image" alt="dashboard-image" />
+        <div className='App-info'>
+          <h1 className='App-h1'>
+            ROL-BOX
+          </h1>
+          <p className="App-text">
+            Inovativna rješenja za Vaš dom
+          </p>
+        </div>
         <p>
           Kontakt: 095 895 4725
         </p>
-      </header>
+      </div>
+      <img src={underConstruction} className="App-under-construction" alt="under-construction" />
     </div>
   );
 }

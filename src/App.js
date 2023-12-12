@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-container">
-        <img src={dashboardImage} className="App-dashboard-image" alt="dashboard-image" />
+        <img src={dashboardImage} className="App-dashboard-image" alt="dashboard" />
         <div className='App-info'>
           <h1 className='App-h1'>
             ROL-BOX

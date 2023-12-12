@@ -1,9 +1,9 @@
-name: Cloudfront Deployment - Dev
+name: Cloudfront Deployment - Prod
 
 on:
   push:
     branches:
-      - develop
+      - main
 
 jobs:
   build:
@@ -33,6 +33,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
+    environment: production
     needs: build
     steps:
       # get build artifact

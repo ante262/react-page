@@ -1,22 +1,20 @@
-import logo from './logo.svg';
+import dashboardImage from './images/dashboard-image.webp';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={dashboardImage} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          ROL-BOX
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p className="App-link">
+          Inovativna rješenja za Vaš dom
+        </p>
+        <p>
+          Kontakt: 095 895 4725
+        </p>
       </header>
     </div>
   );

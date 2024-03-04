@@ -7,6 +7,7 @@ function App() {
         id="myFrame" 
         className='App-iframe' 
         src='https://nikolinasafar18.wixsite.com/my-site-1'
+        title='My-site'
       />
     </div>
   );
